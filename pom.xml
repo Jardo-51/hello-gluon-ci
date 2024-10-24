@@ -113,6 +113,7 @@
                 <configuration>
                     <verbose>true</verbose>
                     <target>${gluonfx.target}</target>
+                    <nativeImageArgs>-march=compatibility</nativeImageArgs>
                     <attachList>
                         <list>display</list>
                         <list>lifecycle</list>

@@ -33,7 +33,7 @@ jobs:
         shell: cmd
         run: .\mvnw -Pdesktop gluonfx:build gluonfx:package
 
-      - name: Copy native bundles to staging
+      - name: Copy native bundles to staging.
         run: |
           cp -r target/gluonfx/x86_64-windows/HelloGluon.exe staging
           cp -r target/gluonfx/x86_64-windows/HelloGluon-1.0.msi staging
